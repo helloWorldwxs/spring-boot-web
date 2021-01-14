@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>wxs</title>
+</head>
+<body>
+<h1>hello world</h1>
+
+<form action="/user" method="get">
+    <input type="submit" value="查询" />
+</form>
+
+<form action="/user" method="post">
+    <input type="submit" value="保存" />
+</form>
+
+<form action="/user" method="post">
+    <input type="hidden" name="_method" value="DELETE" />
+    <input type="submit" value="删除" />
+</form>
+
+<form action="/user" method="post">
+    <input type="hidden" name="_method" value="PUT" />
+    <input type="submit" value="PUT 提交" />
+</form>
+</body>
+</html>
